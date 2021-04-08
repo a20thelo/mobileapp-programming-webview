@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        WebView myWebView = findViewById(R.id.My_webview);
+        myWebView = findViewById(R.id.my_webview);
         /*
         * Rename your App. Tip: Values->Strings
         * Enable Internet access for your App. Tip: Manifest
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         * Give the WebView element ID "my_webview"
         -- Commit and push to your github fork
         * Create a private member variable called "myWebView" of type WebView
+
         * Locate the WebView element created in step 1 using the ID created in step 2
         * Create a new WebViewClient to attach to our WebView. This allows us to
           browse the web inside our app.
